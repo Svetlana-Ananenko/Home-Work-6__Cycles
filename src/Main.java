@@ -56,8 +56,9 @@ public class Main {
         int sediments2 = 0;
 
         for (int i = 1; i <= 12; i+=1) {
-            sediments2 = sediments2 + sediments2/100;
             sediments2 = sediments2 + summa2;
+            sediments2 = sediments2 + sediments2/100;
+
             System.out.println("Месяц " + i + " , сумма накоплений равна " + sediments2 + " рублей");
         }
 
